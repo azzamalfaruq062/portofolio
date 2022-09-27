@@ -1,16 +1,3 @@
-.profile{
-    background-color:#ecf1f6;
-}
-.profile img{
-    max-width: 15rem;
-}
-
-.row img{
-    max-width: 90% !important;
-}
-/* .font{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-} */
 /* Dari Index */
 .radius{
     border-radius: 40px;
