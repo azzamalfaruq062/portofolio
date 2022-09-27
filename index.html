@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="ass/wow/css/libs/animate.css">
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+    <style>
+        .radius{
+            border-radius: 40px;
+        }
+        .none{
+            text-decoration: none;
+        }
+        .txty{
+            color: yellow;
+        }
+        .btn-card{
+            text-align: center;
+            color: blue;
+            margin-left: 5px;
+            margin-right: 5px;
+            background-color: white;
+            border: none;
+        }
+        .top{
+            position: absolute;
+        }
+        .img{
+            width: 40%;
+        }
+        .bg{
+            background-color: #ffeaad9d;
+            border-radius: 50%;
+        }
+        .bgi{
+            position: relative;
+        }
+        /* CSS slide */
+        .slider-nav-sm {
+            --swiffy-slider-nav-zoom: .35;
+            --swiffy-slider-nav-outside-size: 2.5rem;
+        }
+        .slider-nav-light .slider-nav::before {
+            background-color: var(--swiffy-slider-nav-dark);
+            border-radius: 50%;
+        }
+    </style>
+    <script src="bootstrap/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <nav class="navbar bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">Personal</a>
+          <div class="ms-auto">
+            <a class="text-warning none me-2" href="#" >Home </a>
+            <a class="text-dark none me-2" href="#" >About us </a>
+            <a class="text-dark none me-2" href="#" >Services </a>
+            <a class="btn btn-warning text-light none radius" href="#">Contact</a>
+          </div>
+        </div>
+    </nav>
+    <!-- Hi i am -->
+    <div class="container pt-5">
+        <div class="row pt-5" data-wow-duration="2s" data-wow-delay="0s">
+            <div class="wow fadeInLeft col-md-8 col-12">
+                <h2 class="">Hi! I Am</h2>
+                <h3 class="text-warning">Azzam al faruq</h3>
+                <p>Welcome to Azzam Al Faruq, We want our monthly rondup of new releses</p>
+                <button class="btn btn-warning shadow radius text-light ps-5 pe-5 mt-2">Hire</button>
+            </div>
+            <div class="col-md-4 col-12 mt-md-0 mt-5 pt-5 mb-4 position-relative">
+                <img class="wow fadeInRight img-fluid" data-wow-duration="2s" data-wow-delay="0s" src="ass/img/bg1.png" style="width: 100%;">
+                <img class="wow fadeIn img-fluid position-absolute top-50 start-50 translate-middle" data-wow-duration="2s" data-wow-delay="0s" src="ass/img/person.png"  style="width: 50%;">
+            </div>
+        </div>
+        <!-- my awesome -->
+        <div class="container pt-5 wow fadeInRight text-center" data-wow-duration="2s" data-wow-delay="0s">
+            <h2>My Awesome</h2>
+            <h3 class="text-warning">Services</h3>
+            <p>lorem ipsum, dolor sit amet consecteror adisipicing elit, alios office amet ea et<br> nisi sius possimus itaque blandits numquan corporis?</p>
+            <button class="btn btn-warning shadow radius text-light">Download CV</button>
+        </div>
+        <!-- card -->
+        <div class="container wow fadeInLeft pt-5" data-wow-duration="2s" data-wow-delay="0s">
+            <div class="d-flex justify-content-center">
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col card shadow me-md-4 me-sm-0 mb-md-3 text-center" style="max-width: 20rem;">
+                        <div class="mt-md-4 mb-md-3">
+                            <div class="d-flex justify-content-center">
+                                <img class="img-fluid ms-auto me-auto mt-md-0 mt-3" src="ass/img/programming.png" style="width: 30%;">
+                            </div>
+                            <div class="card-body">
+                                <h4>Programing</h4>
+                                <p>lorem ipsum, dolor sit amet consecteror adisipicing elit, alios office amet ea ett nisi sius possimus itaque blandits numquan corporis?</p>
+                                <div class="text-center">
+                                    <button class="btn btn-card shadow">Learn more</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col card shadow me-md-4 me-sm-0 mb-md-3 mt-md-0 mt-3 text-center" style="max-width: 20rem;">
+                        <div class="mt-md-4 mb-md-3">
+                            <div class="d-flex justify-content-center">
+                                <img class="img-fluid ms-auto me-auto mt-md-0 mt-3" src="ass/img/paint-palette.png" style="width: 30%;">
+                            </div>
+                            <div class="card-body">
+                                <h4>Design</h4>
+                                <p>lorem ipsum, dolor sit amet consecteror adisipicing elit, alios office amet ea ett nisi sius possimus itaque blandits numquan corporis?</p>
+                                <div class="text-center">
+                                    <button class="btn btn-card shadow">Learn more</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col card shadow mb-md-3 mt-md-0 mt-3 text-center" style="max-width: 20rem;">
+                        <div class="mt-md-4 mb-md-3">
+                            <div class="d-flex justify-content-center">
+                                <img class="img-fluid ms-auto me-auto mt-md-0 mt-3" src="ass/img/ux.png" style="width: 30%;">
+                            </div>
+                            <div class="card-body">
+                                <h4>UI/UX</h4>
+                                <p>lorem ipsum, dolor sit amet consecteror adisipicing elit, alios office amet ea ett nisi sius possimus itaque blandits numquan corporis?</p>
+                                <div class="text-center">
+                                    <button class="btn btn-card shadow">Learn more</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- work for all -->
+        <div class="container">
+                <div class="row ms-md-5 me-md-5 wow fadeInRight pt-5 pb-5 ">
+                    <div class="col-md-8 col-12 text-center mt-md-auto mb-md-auto">
+                        <h2>Work for All This</h2>
+                        <h3 class="text-warning">Brand & Client</h3>
+                        <p>Lorem ipsum dolor sit amet consectator</p>
+                        <button class="btn btn-warning shadow radius text-light ps-5 pe-5 mt-2">Detail</button>
+                    </div>
+                    <div class="col-md-4 col-12 mt-md-0 ms-md-0 ms-4 mt-5 position-relative">
+                        <img class="wow fadeInRight" src="ass/img/circle.png">
+                        <div class="">
+                            <a href="#"><div class="img position-absolute top-0 start-0"><img class="img bg p-1" src="ass/img/shopify.png"></div></a>
+                            <div class="img position-absolute top-0 start-50 translate-middle-x"><img class="img bg p-1" src="ass/img/amazon-pay.png"></div>
+                            <div class="img position-absolute top-0 end-0"><img class="img bg p-1" src="ass/img/chrome.png"></div>
+                            <div class="img position-absolute top-50 start-0 translate-middle-y"><img class="img bg p-1" src="ass/img/dropbox.png"></div>
+                            <div class="img position-absolute top-50 start-50 translate-middle"><img class="img bg p-1" src="ass/img/firefox.png"></div>
+                            <div class="img position-absolute top-50 end-0 translate-middle-y"><img class="img bg p-1" src="ass/img/git.png"></div>
+                            <div class="img position-absolute bottom-0 start-0"><img class="img bg p-1" src="ass/img/gitlab.png"></div>
+                            <div class="img position-absolute bottom-0 start-50 translate-middle-x"><img class="img bg p-1" src="ass/img/skype.png"></div>
+                            <div class="img position-absolute bottom-0 end-0"><img class="img bg p-1" src="ass/img/paint-palette.png"></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <!-- Recent -->
+        <div class="container wow fadeInLeft mb-5"  data-wow-duration="2s" data-wow-delay="0s">
+            <div class="text-center">
+                <h2>Recent</h2>
+                <p>lorem ipsum, dolor sit amet consecteror adisipicing elit, alios office amet ea ett nisi sius possimus itaque blandits numquan corporis? alios office amet ea ett nisi sius possimus itaque blandits numquan corporis.</p>
+            </div>
+            <div class="mt-md-5 swiffy-slider slider-nav-sm slider-nav-autoplay slider-nav-mousedrag slider-nav-light slider-nav-outside slider-nav-visible slider-nav-animation slider-nav-animation-fadein slider-item-last-visible">
+                <ul class="slider-container slider-item-show3">
+                    <li><img src="ass/img/p1.jpg" style="max-width: 100%;height: auto;"></li>
+                    <li><img src="ass/img/p2.jpg" style="max-width: 100%;height: auto;"></li>
+                    <li><img src="ass/img/p3.jpg" style="max-width: 100%;height: auto;"></li>
+                    <li><img src="ass/img/p4.jpg" style="max-width: 100%;height: auto;"></li>
+                    <li><img src="ass/img/p5.jpg" style="max-width: 100%;height: auto;"></li>
+                </ul>
+                    <button type="button" class="slider-nav"></button>
+                    <button type="button" class="slider-nav slider-nav-next"></button>
+            </div>
+        </div>
+        <!-- Got -->
+        <div class="d-flex wow fadeInRight justify-content-center mb-5">
+            <div class="p-3 text-center" style="width: 650px; background-color: #FFF4CF; border-radius: 3px;">
+                <h3>Got A Project? Let's Talk</h3>
+                <p>lorem ipsum, dolor sit amet consecteror adisipicing elit, alios office amet ea ett nisi sius possimus itaque blandits numquan corporis? alios office amets.</p>
+                <button class="btn btn-warning shadow radius text-light ps-5 pe-5 mt-2">Hire</button>
+            </div>
+        </div>
+
+        <!-- COba -->
+    </div>
+
+    <script src="ass/wow/dist/wow.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/js/swiffy-slider-extensions.min.js" crossorigin="anonymous" defer></script>
+    <script>
+        wow = new WOW({
+                  boxClass:     'wow',      // default
+                  animateClass: 'animated', // default
+                  offset:       0,          // default
+                  mobile:       true,       // default
+                  live:         true        // default
+        })
+        wow.init();
+    </script>
+</body>
+
+</html>
